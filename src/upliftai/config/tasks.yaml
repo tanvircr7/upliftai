@@ -1,0 +1,29 @@
+program_task:
+  description: >
+    You will receive two text blocks:
+
+    (A) TEMPLATE (json-ish): it shows the target structure and examples.
+        It may contain human comments. Treat comments as guidance only.
+        If TEMPLATE shows only week 1, GENERATE weeks 1..10 by following the
+        same structure and style. Keep exactly the same keys and array nesting.
+
+    (B) USER PROFILE (json-ish): comments allowed; use only to CHANGE VALUES.
+
+    HARD RULES:
+    - Output ONE object of STRICT, VALID JSON.
+    - EXACT SAME keys and nesting as TEMPLATE.
+    - DO NOT add/remove/rename keys.
+    - NO comments, NO markdown, NO extra text around the JSON.
+    - If something isn't specified, choose sensible values; keep units consistent.
+    - If a day is rest, keep "exercises": [].
+
+    TEMPLATE:
+    {template_text}
+
+    USER PROFILE:
+    {profile_text}
+  expected_output: >
+    A single JSON object mirroring the TEMPLATE structure, values tailored to
+    the USER PROFILE, covering weeks 1..10.
+  agent: generator
+  output_file: output/program.json

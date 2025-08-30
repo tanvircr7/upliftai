@@ -1,0 +1,36 @@
+# venvs & caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# env & secrets
+.env
+*.env.local
+.env.*.local
+
+# packaging / build
+dist/
+build/
+*.egg-info/
+*.egg
+wheels/
+
+# editors & OS
+.vscode/
+.idea/
+.DS_Store
+
+# docker
+*.log
+**/.dockerignore~
+
+# misc
+coverage.*
+htmlcov/

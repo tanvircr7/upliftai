@@ -1,0 +1,21 @@
+[project]
+name = "upliftai"
+version = "0.1.0"
+description = "upliftAI — a CrewAI agent"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "crewai",
+  "crewai-tools",
+  "pydantic",
+  "python-dotenv",
+  "rich",
+  "fastapi",
+  "uvicorn"
+]
+
+[tool.uv]
+managed = true
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
