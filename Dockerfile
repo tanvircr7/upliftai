@@ -38,4 +38,4 @@ RUN mkdir -p "$XDG_DATA_HOME" && chown -R appuser:appuser /home/appuser /app
 
 USER appuser
 
-CMD ["python", "-m", "upliftai.run"]
+ENTRYPOINT ["python", "-m", "upliftai.main"]
