@@ -4,7 +4,7 @@
       "week": 1,
       "days": [
         {
-          "day": "Monday",
+          "day": 1,
           "exercises": [
             {
               "name": "Push-ups",
@@ -19,36 +19,30 @@
           ]
         },
         {
-          "day": "Tuesday",
+          "day": 2,
+          "exercises": []
+        },
+        {
+          "day": 3,
           "exercises": [
             {
               "name": "Plank",
               "sets": 3,
               "duration": "30s"
-            }
-          ]
-        },
-        {
-          "day": "Wednesday",
-          "exercises": [
+            },
             {
               "name": "Lunges",
               "sets": 3,
               "reps": 12
-            },
-            {
-              "name": "Dumbbell Rows",
-              "sets": 3,
-              "reps": 10
             }
           ]
         },
         {
-          "day": "Thursday",
+          "day": 4,
           "exercises": []
         },
         {
-          "day": "Friday",
+          "day": 5,
           "exercises": [
             {
               "name": "Burpees",
@@ -56,25 +50,25 @@
               "reps": 8
             },
             {
-              "name": "Mountain Climbers",
+              "name": "Deadlifts",
               "sets": 3,
-              "reps": 15
+              "reps": 10
             }
           ]
         },
         {
-          "day": "Saturday",
+          "day": 6,
+          "exercises": []
+        },
+        {
+          "day": 7,
           "exercises": [
             {
-              "name": "Bicycle Crunches",
+              "name": "Mountain Climbers",
               "sets": 3,
-              "reps": 15
+              "duration": "30s"
             }
           ]
-        },
-        {
-          "day": "Sunday",
-          "exercises": []
         }
       ]
     },
@@ -82,7 +76,7 @@
       "week": 2,
       "days": [
         {
-          "day": "Monday",
+          "day": 1,
           "exercises": [
             {
               "name": "Push-ups",
@@ -97,36 +91,30 @@
           ]
         },
         {
-          "day": "Tuesday",
+          "day": 2,
+          "exercises": []
+        },
+        {
+          "day": 3,
           "exercises": [
             {
               "name": "Plank",
               "sets": 3,
               "duration": "40s"
-            }
-          ]
-        },
-        {
-          "day": "Wednesday",
-          "exercises": [
-            {
-              "name": "Lunges",
-              "sets": 3,
-              "reps": 15
             },
             {
-              "name": "Dumbbell Rows",
+              "name": "Lunges",
               "sets": 3,
               "reps": 12
             }
           ]
         },
         {
-          "day": "Thursday",
+          "day": 4,
           "exercises": []
         },
         {
-          "day": "Friday",
+          "day": 5,
           "exercises": [
             {
               "name": "Burpees",
@@ -134,25 +122,25 @@
               "reps": 10
             },
             {
-              "name": "Mountain Climbers",
+              "name": "Deadlifts",
               "sets": 3,
-              "reps": 20
+              "reps": 12
             }
           ]
         },
         {
-          "day": "Saturday",
+          "day": 6,
+          "exercises": []
+        },
+        {
+          "day": 7,
           "exercises": [
             {
-              "name": "Bicycle Crunches",
+              "name": "Mountain Climbers",
               "sets": 3,
-              "reps": 20
+              "duration": "40s"
             }
           ]
-        },
-        {
-          "day": "Sunday",
-          "exercises": []
         }
       ]
     },
@@ -160,77 +148,71 @@
       "week": 3,
       "days": [
         {
-          "day": "Monday",
+          "day": 1,
           "exercises": [
             {
               "name": "Push-ups",
-              "sets": 4,
-              "reps": 10
+              "sets": 3,
+              "reps": 15
             },
             {
               "name": "Squats",
-              "sets": 4,
-              "reps": 15
+              "sets": 3,
+              "reps": 20
             }
           ]
         },
         {
-          "day": "Tuesday",
+          "day": 2,
+          "exercises": []
+        },
+        {
+          "day": 3,
           "exercises": [
             {
               "name": "Plank",
               "sets": 3,
               "duration": "50s"
-            }
-          ]
-        },
-        {
-          "day": "Wednesday",
-          "exercises": [
-            {
-              "name": "Lunges",
-              "sets": 4,
-              "reps": 15
             },
             {
-              "name": "Dumbbell Rows",
-              "sets": 4,
-              "reps": 12
+              "name": "Lunges",
+              "sets": 3,
+              "reps": 15
             }
           ]
         },
         {
-          "day": "Thursday",
+          "day": 4,
           "exercises": []
         },
         {
-          "day": "Friday",
+          "day": 5,
           "exercises": [
             {
               "name": "Burpees",
-              "sets": 4,
-              "reps": 10
+              "sets": 3,
+              "reps": 12
             },
             {
-              "name": "Mountain Climbers",
-              "sets": 4,
-              "reps": 20
+              "name": "Deadlifts",
+              "sets": 3,
+              "reps": 15
             }
           ]
         },
         {
-          "day": "Saturday",
+          "day": 6,
+          "exercises": []
+        },
+        {
+          "day": 7,
           "exercises": [
             {
-              "name": "Bicycle Crunches",
-              "sets": 4,
-              "reps": 20
+              "name": "Mountain Climbers",
+              "sets": 3,
+              "duration": "50s"
             }
           ]
-        },
-        {
-          "day": "Sunday",
-          "exercises": []
         }
       ]
     },
@@ -238,51 +220,45 @@
       "week": 4,
       "days": [
         {
-          "day": "Monday",
+          "day": 1,
           "exercises": [
             {
               "name": "Push-ups",
               "sets": 4,
-              "reps": 12
+              "reps": 15
             },
             {
               "name": "Squats",
               "sets": 4,
-              "reps": 15
+              "reps": 20
             }
           ]
         },
         {
-          "day": "Tuesday",
+          "day": 2,
+          "exercises": []
+        },
+        {
+          "day": 3,
           "exercises": [
             {
               "name": "Plank",
               "sets": 4,
               "duration": "60s"
-            }
-          ]
-        },
-        {
-          "day": "Wednesday",
-          "exercises": [
-            {
-              "name": "Lunges",
-              "sets": 4,
-              "reps": 20
             },
             {
-              "name": "Dumbbell Rows",
+              "name": "Lunges",
               "sets": 4,
               "reps": 15
             }
           ]
         },
         {
-          "day": "Thursday",
+          "day": 4,
           "exercises": []
         },
         {
-          "day": "Friday",
+          "day": 5,
           "exercises": [
             {
               "name": "Burpees",
@@ -290,25 +266,25 @@
               "reps": 12
             },
             {
-              "name": "Mountain Climbers",
+              "name": "Deadlifts",
               "sets": 4,
-              "reps": 25
+              "reps": 15
             }
           ]
         },
         {
-          "day": "Saturday",
+          "day": 6,
+          "exercises": []
+        },
+        {
+          "day": 7,
           "exercises": [
             {
-              "name": "Bicycle Crunches",
+              "name": "Mountain Climbers",
               "sets": 4,
-              "reps": 25
+              "duration": "60s"
             }
           ]
-        },
-        {
-          "day": "Sunday",
-          "exercises": []
         }
       ]
     },
@@ -316,51 +292,45 @@
       "week": 5,
       "days": [
         {
-          "day": "Monday",
+          "day": 1,
           "exercises": [
             {
               "name": "Push-ups",
               "sets": 4,
-              "reps": 15
+              "reps": 18
             },
             {
               "name": "Squats",
               "sets": 4,
-              "reps": 20
+              "reps": 25
             }
           ]
         },
         {
-          "day": "Tuesday",
+          "day": 2,
+          "exercises": []
+        },
+        {
+          "day": 3,
           "exercises": [
             {
               "name": "Plank",
               "sets": 4,
               "duration": "70s"
-            }
-          ]
-        },
-        {
-          "day": "Wednesday",
-          "exercises": [
+            },
             {
               "name": "Lunges",
               "sets": 4,
-              "reps": 20
-            },
-            {
-              "name": "Dumbbell Rows",
-              "sets": 4,
-              "reps": 15
+              "reps": 18
             }
           ]
         },
         {
-          "day": "Thursday",
+          "day": 4,
           "exercises": []
         },
         {
-          "day": "Friday",
+          "day": 5,
           "exercises": [
             {
               "name": "Burpees",
@@ -368,25 +338,25 @@
               "reps": 15
             },
             {
-              "name": "Mountain Climbers",
+              "name": "Deadlifts",
               "sets": 4,
-              "reps": 30
+              "reps": 18
             }
           ]
         },
         {
-          "day": "Saturday",
+          "day": 6,
+          "exercises": []
+        },
+        {
+          "day": 7,
           "exercises": [
             {
-              "name": "Bicycle Crunches",
+              "name": "Mountain Climbers",
               "sets": 4,
-              "reps": 30
+              "duration": "70s"
             }
           ]
-        },
-        {
-          "day": "Sunday",
-          "exercises": []
         }
       ]
     },
@@ -394,77 +364,71 @@
       "week": 6,
       "days": [
         {
-          "day": "Monday",
+          "day": 1,
           "exercises": [
             {
               "name": "Push-ups",
-              "sets": 5,
-              "reps": 15
+              "sets": 4,
+              "reps": 20
             },
             {
               "name": "Squats",
-              "sets": 5,
-              "reps": 20
+              "sets": 4,
+              "reps": 25
             }
           ]
         },
         {
-          "day": "Tuesday",
+          "day": 2,
+          "exercises": []
+        },
+        {
+          "day": 3,
           "exercises": [
             {
               "name": "Plank",
               "sets": 4,
               "duration": "80s"
-            }
-          ]
-        },
-        {
-          "day": "Wednesday",
-          "exercises": [
-            {
-              "name": "Lunges",
-              "sets": 5,
-              "reps": 20
             },
             {
-              "name": "Dumbbell Rows",
-              "sets": 5,
-              "reps": 15
+              "name": "Lunges",
+              "sets": 4,
+              "reps": 20
             }
           ]
         },
         {
-          "day": "Thursday",
+          "day": 4,
           "exercises": []
         },
         {
-          "day": "Friday",
+          "day": 5,
           "exercises": [
             {
               "name": "Burpees",
-              "sets": 5,
-              "reps": 15
+              "sets": 4,
+              "reps": 18
             },
             {
-              "name": "Mountain Climbers",
-              "sets": 5,
-              "reps": 30
+              "name": "Deadlifts",
+              "sets": 4,
+              "reps": 20
             }
           ]
         },
         {
-          "day": "Saturday",
+          "day": 6,
+          "exercises": []
+        },
+        {
+          "day": 7,
           "exercises": [
             {
-              "name": "Bicycle Crunches",
-              "sets": 5,
-              "reps": 30
+              "name": "Mountain Climbers",
+              "sets": 4,
+              "duration": "80s"
             }
           ]
-        },
-        {
-          "day": "Sunday",
-          "exercises": []
         }
       ]
     },
@@ -472,51 +436,45 @@
       "week": 7,
       "days": [
         {
-          "day": "Monday",
+          "day": 1,
           "exercises": [
             {
               "name": "Push-ups",
               "sets": 5,
-              "reps": 15
+              "reps": 20
             },
             {
               "name": "Squats",
               "sets": 5,
-              "reps": 25
+              "reps": 30
             }
           ]
         },
         {
-          "day": "Tuesday",
+          "day": 2,
+          "exercises": []
+        },
+        {
+          "day": 3,
           "exercises": [
             {
               "name": "Plank",
               "sets": 5,
               "duration": "90s"
-            }
-          ]
-        },
-        {
-          "day": "Wednesday",
-          "exercises": [
-            {
-              "name": "Lunges",
-              "sets": 5,
-              "reps": 25
             },
             {
-              "name": "Dumbbell Rows",
+              "name": "Lunges",
               "sets": 5,
               "reps": 20
             }
           ]
         },
         {
-          "day": "Thursday",
+          "day": 4,
           "exercises": []
         },
         {
-          "day": "Friday",
+          "day": 5,
           "exercises": [
             {
               "name": "Burpees",
@@ -524,25 +482,25 @@
               "reps": 20
             },
             {
-              "name": "Mountain Climbers",
+              "name": "Deadlifts",
               "sets": 5,
-              "reps": 35
+              "reps": 25
             }
           ]
         },
         {
-          "day": "Saturday",
+          "day": 6,
+          "exercises": []
+        },
+        {
+          "day": 7,
           "exercises": [
             {
-              "name": "Bicycle Crunches",
+              "name": "Mountain Climbers",
               "sets": 5,
-              "reps": 35
+              "duration": "90s"
             }
           ]
-        },
-        {
-          "day": "Sunday",
-          "exercises": []
         }
       ]
     },
@@ -550,51 +508,45 @@
       "week": 8,
       "days": [
         {
-          "day": "Monday",
+          "day": 1,
           "exercises": [
             {
               "name": "Push-ups",
               "sets": 5,
-              "reps": 20
+              "reps": 25
             },
             {
               "name": "Squats",
               "sets": 5,
-              "reps": 25
+              "reps": 30
             }
           ]
         },
         {
-          "day": "Tuesday",
+          "day": 2,
+          "exercises": []
+        },
+        {
+          "day": 3,
           "exercises": [
             {
               "name": "Plank",
               "sets": 5,
-              "duration": "90s"
-            }
-          ]
-        },
-        {
-          "day": "Wednesday",
-          "exercises": [
-            {
-              "name": "Lunges",
-              "sets": 5,
-              "reps": 30
+              "duration": "100s"
             },
             {
-              "name": "Dumbbell Rows",
+              "name": "Lunges",
               "sets": 5,
               "reps": 25
             }
           ]
         },
         {
-          "day": "Thursday",
+          "day": 4,
           "exercises": []
         },
         {
-          "day": "Friday",
+          "day": 5,
           "exercises": [
             {
               "name": "Burpees",
@@ -602,25 +554,25 @@
               "reps": 25
             },
             {
-              "name": "Mountain Climbers",
+              "name": "Deadlifts",
               "sets": 5,
-              "reps": 40
+              "reps": 30
             }
           ]
         },
         {
-          "day": "Saturday",
+          "day": 6,
+          "exercises": []
+        },
+        {
+          "day": 7,
           "exercises": [
             {
-              "name": "Bicycle Crunches",
+              "name": "Mountain Climbers",
               "sets": 5,
-              "reps": 40
+              "duration": "100s"
             }
           ]
-        },
-        {
-          "day": "Sunday",
-          "exercises": []
         }
       ]
     },
@@ -628,51 +580,45 @@
       "week": 9,
       "days": [
         {
-          "day": "Monday",
+          "day": 1,
           "exercises": [
             {
               "name": "Push-ups",
               "sets": 5,
-              "reps": 25
+              "reps": 30
             },
             {
               "name": "Squats",
               "sets": 5,
-              "reps": 30
+              "reps": 35
             }
           ]
         },
         {
-          "day": "Tuesday",
+          "day": 2,
+          "exercises": []
+        },
+        {
+          "day": 3,
           "exercises": [
             {
               "name": "Plank",
               "sets": 5,
-              "duration": "90s"
-            }
-          ]
-        },
-        {
-          "day": "Wednesday",
-          "exercises": [
+              "duration": "110s"
+            },
             {
               "name": "Lunges",
               "sets": 5,
               "reps": 30
-            },
-            {
-              "name": "Dumbbell Rows",
-              "sets": 5,
-              "reps": 25
             }
           ]
         },
         {
-          "day": "Thursday",
+          "day": 4,
           "exercises": []
         },
         {
-          "day": "Friday",
+          "day": 5,
           "exercises": [
             {
               "name": "Burpees",
@@ -680,25 +626,25 @@
               "reps": 30
             },
             {
-              "name": "Mountain Climbers",
+              "name": "Deadlifts",
               "sets": 5,
-              "reps": 45
+              "reps": 35
             }
           ]
         },
         {
-          "day": "Saturday",
+          "day": 6,
+          "exercises": []
+        },
+        {
+          "day": 7,
           "exercises": [
             {
-              "name": "Bicycle Crunches",
+              "name": "Mountain Climbers",
               "sets": 5,
-              "reps": 45
+              "duration": "110s"
             }
           ]
-        },
-        {
-          "day": "Sunday",
-          "exercises": []
         }
       ]
     },
@@ -706,51 +652,45 @@
       "week": 10,
       "days": [
         {
-          "day": "Monday",
+          "day": 1,
           "exercises": [
             {
               "name": "Push-ups",
               "sets": 5,
-              "reps": 30
+              "reps": 35
             },
             {
               "name": "Squats",
               "sets": 5,
-              "reps": 30
+              "reps": 40
             }
           ]
         },
         {
-          "day": "Tuesday",
+          "day": 2,
+          "exercises": []
+        },
+        {
+          "day": 3,
           "exercises": [
             {
               "name": "Plank",
               "sets": 5,
-              "duration": "90s"
-            }
-          ]
-        },
-        {
-          "day": "Wednesday",
-          "exercises": [
+              "duration": "120s"
+            },
             {
               "name": "Lunges",
               "sets": 5,
               "reps": 35
-            },
-            {
-              "name": "Dumbbell Rows",
-              "sets": 5,
-              "reps": 30
             }
           ]
         },
         {
-          "day": "Thursday",
+          "day": 4,
           "exercises": []
         },
         {
-          "day": "Friday",
+          "day": 5,
           "exercises": [
             {
               "name": "Burpees",
@@ -758,25 +698,25 @@
               "reps": 35
             },
             {
-              "name": "Mountain Climbers",
+              "name": "Deadlifts",
               "sets": 5,
-              "reps": 50
+              "reps": 40
             }
           ]
         },
         {
-          "day": "Saturday",
+          "day": 6,
+          "exercises": []
+        },
+        {
+          "day": 7,
           "exercises": [
             {
-              "name": "Bicycle Crunches",
+              "name": "Mountain Climbers",
               "sets": 5,
-              "reps": 50
+              "duration": "120s"
             }
           ]
-        },
-        {
-          "day": "Sunday",
-          "exercises": []
         }
       ]
     }
