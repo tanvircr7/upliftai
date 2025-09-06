@@ -1,0 +1,8 @@
+{
+  // beginner, obese, low impact
+  "age": 42,
+  "goal": "weight loss",
+  "experience": "beginner",
+  "constraints": ["no jumping", "knee pain"],
+  "diet": "Mediterranean"
+}

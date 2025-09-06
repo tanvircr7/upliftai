@@ -1,720 +1,556 @@
 {
-  "weeks": [
+  "workoutPlans": [
     {
-      "week": 1,
-      "days": [
+      "planName": "Strength Training",
+      "planType": "Strength Gain",
+      "planDuration": "4 weeks",
+      "weeklyPlans": [
         {
-          "day": 1,
-          "exercises": [
+          "week": 1,
+          "days": [
             {
-              "name": "Push-ups",
-              "sets": 3,
-              "reps": 10
+              "day": "Day 1",
+              "exercises": [
+                { "name": "Deadlifts", "sets": 4, "reps": 6, "weight": "Bodyweight" },
+                { "name": "Pull-Ups", "sets": 4, "reps": 8, "weight": "Bodyweight" },
+                { "name": "Bench Press", "sets": 4, "reps": 6, "weight": "Bodyweight" }
+              ]
             },
             {
-              "name": "Squats",
-              "sets": 3,
-              "reps": 15
+              "day": "Day 2",
+              "exercises": [
+                { "name": "Squats", "sets": 4, "reps": 6, "weight": "Bodyweight" },
+                { "name": "Overhead Press", "sets": 4, "reps": 8, "weight": "Bodyweight" },
+                { "name": "Bent Over Rows", "sets": 4, "reps": 8, "weight": "Bodyweight" }
+              ]
+            },
+            {
+              "day": "Day 3",
+              "exercises": [
+                { "name": "Lunges", "sets": 4, "reps": 8, "weight": "Bodyweight" },
+                { "name": "Dumbbell Flyes", "sets": 4, "reps": 10, "weight": "Bodyweight" },
+                { "name": "Plank", "sets": 3, "reps": "30s", "weight": "Bodyweight" }
+              ]
+            },
+            {
+              "day": "Day 4",
+              "exercises": []
+            },
+            {
+              "day": "Day 5",
+              "exercises": [
+                { "name": "Push-Ups", "sets": 4, "reps": 10, "weight": "Bodyweight" },
+                { "name": "Jump Rope", "sets": 4, "reps": "1 min", "weight": "Bodyweight" }
+              ]
+            },
+            {
+              "day": "Day 6",
+              "exercises": [
+                { "name": "Mountain Climbers", "sets": 4, "reps": "40s", "weight": "Bodyweight" },
+                { "name": "Plank", "sets": 3, "reps": "45s", "weight": "Bodyweight" }
+              ]
+            },
+            {
+              "day": "Day 7",
+              "exercises": [
+                { "name": "Stretch/Yoga", "sets": 1, "reps": "15 min", "weight": "Bodyweight" }
+              ]
             }
           ]
         },
         {
-          "day": 2,
-          "exercises": []
-        },
-        {
-          "day": 3,
-          "exercises": [
+          "week": 2,
+          "days": [
             {
-              "name": "Plank",
-              "sets": 3,
-              "duration": "30s"
+              "day": "Day 1",
+              "exercises": [
+                { "name": "Deadlifts", "sets": 4, "reps": 5, "weight": "Bodyweight" },
+                { "name": "Pull-Ups", "sets": 4, "reps": 7, "weight": "Bodyweight" },
+                { "name": "Bench Press", "sets": 4, "reps": 5, "weight": "Bodyweight" }
+              ]
             },
             {
-              "name": "Lunges",
-              "sets": 3,
-              "reps": 12
+              "day": "Day 2",
+              "exercises": [
+                { "name": "Squats", "sets": 4, "reps": 5, "weight": "Bodyweight" },
+                { "name": "Overhead Press", "sets": 4, "reps": 7, "weight": "Bodyweight" },
+                { "name": "Bent Over Rows", "sets": 4, "reps": 7, "weight": "Bodyweight" }
+              ]
+            },
+            {
+              "day": "Day 3",
+              "exercises": [
+                { "name": "Lunges", "sets": 4, "reps": 7, "weight": "Bodyweight" },
+                { "name": "Dumbbell Flyes", "sets": 4, "reps": 9, "weight": "Bodyweight" },
+                { "name": "Plank", "sets": 3, "reps": "35s", "weight": "Bodyweight" }
+              ]
+            },
+            {
+              "day": "Day 4",
+              "exercises": []
+            },
+            {
+              "day": "Day 5",
+              "exercises": [
+                { "name": "Push-Ups", "sets": 4, "reps": 12, "weight": "Bodyweight" },
+                { "name": "Jump Rope", "sets": 4, "reps": "1 min", "weight": "Bodyweight" }
+              ]
+            },
+            {
+              "day": "Day 6",
+              "exercises": [
+                { "name": "Mountain Climbers", "sets": 4, "reps": "45s", "weight": "Bodyweight" },
+                { "name": "Plank", "sets": 3, "reps": "50s", "weight": "Bodyweight" }
+              ]
+            },
+            {
+              "day": "Day 7",
+              "exercises": [
+                { "name": "Stretch/Yoga", "sets": 1, "reps": "15 min", "weight": "Bodyweight" }
+              ]
             }
           ]
         },
         {
-          "day": 4,
-          "exercises": []
-        },
-        {
-          "day": 5,
-          "exercises": [
+          "week": 3,
+          "days": [
             {
-              "name": "Burpees",
-              "sets": 3,
-              "reps": 8
+              "day": "Day 1",
+              "exercises": [
+                { "name": "Deadlifts", "sets": 4, "reps": 4, "weight": "Bodyweight" },
+                { "name": "Pull-Ups", "sets": 4, "reps": 6, "weight": "Bodyweight" },
+                { "name": "Bench Press", "sets": 4, "reps": 4, "weight": "Bodyweight" }
+              ]
             },
             {
-              "name": "Deadlifts",
-              "sets": 3,
-              "reps": 10
+              "day": "Day 2",
+              "exercises": [
+                { "name": "Squats", "sets": 4, "reps": 4, "weight": "Bodyweight" },
+                { "name": "Overhead Press", "sets": 4, "reps": 6, "weight": "Bodyweight" },
+                { "name": "Bent Over Rows", "sets": 4, "reps": 6, "weight": "Bodyweight" }
+              ]
+            },
+            {
+              "day": "Day 3",
+              "exercises": [
+                { "name": "Lunges", "sets": 4, "reps": 6, "weight": "Bodyweight" },
+                { "name": "Dumbbell Flyes", "sets": 4, "reps": 8, "weight": "Bodyweight" },
+                { "name": "Plank", "sets": 3, "reps": "40s", "weight": "Bodyweight" }
+              ]
+            },
+            {
+              "day": "Day 4",
+              "exercises": []
+            },
+            {
+              "day": "Day 5",
+              "exercises": [
+                { "name": "Push-Ups", "sets": 4, "reps": 15, "weight": "Bodyweight" },
+                { "name": "Jump Rope", "sets": 4, "reps": "1 min", "weight": "Bodyweight" }
+              ]
+            },
+            {
+              "day": "Day 6",
+              "exercises": [
+                { "name": "Mountain Climbers", "sets": 4, "reps": "50s", "weight": "Bodyweight" },
+                { "name": "Plank", "sets": 3, "reps": "55s", "weight": "Bodyweight" }
+              ]
+            },
+            {
+              "day": "Day 7",
+              "exercises": [
+                { "name": "Stretch/Yoga", "sets": 1, "reps": "15 min", "weight": "Bodyweight" }
+              ]
             }
           ]
         },
         {
-          "day": 6,
-          "exercises": []
-        },
-        {
-          "day": 7,
-          "exercises": [
+          "week": 4,
+          "days": [
             {
-              "name": "Mountain Climbers",
-              "sets": 3,
-              "duration": "30s"
+              "day": "Day 1",
+              "exercises": [
+                { "name": "Deadlifts", "sets": 4, "reps": 3, "weight": "Bodyweight" },
+                { "name": "Pull-Ups", "sets": 4, "reps": 5, "weight": "Bodyweight" },
+                { "name": "Bench Press", "sets": 4, "reps": 3, "weight": "Bodyweight" }
+              ]
+            },
+            {
+              "day": "Day 2",
+              "exercises": [
+                { "name": "Squats", "sets": 4, "reps": 3, "weight": "Bodyweight" },
+                { "name": "Overhead Press", "sets": 4, "reps": 5, "weight": "Bodyweight" },
+                { "name": "Bent Over Rows", "sets": 4, "reps": 5, "weight": "Bodyweight" }
+              ]
+            },
+            {
+              "day": "Day 3",
+              "exercises": [
+                { "name": "Lunges", "sets": 4, "reps": 5, "weight": "Bodyweight" },
+                { "name": "Dumbbell Flyes", "sets": 4, "reps": 7, "weight": "Bodyweight" },
+                { "name": "Plank", "sets": 3, "reps": "45s", "weight": "Bodyweight" }
+              ]
+            },
+            {
+              "day": "Day 4",
+              "exercises": []
+            },
+            {
+              "day": "Day 5",
+              "exercises": [
+                { "name": "Push-Ups", "sets": 4, "reps": 15, "weight": "Bodyweight" },
+                { "name": "Jump Rope", "sets": 4, "reps": "1 min", "weight": "Bodyweight" }
+              ]
+            },
+            {
+              "day": "Day 6",
+              "exercises": [
+                { "name": "Mountain Climbers", "sets": 4, "reps": "55s", "weight": "Bodyweight" },
+                { "name": "Plank", "sets": 3, "reps": "60s", "weight": "Bodyweight" }
+              ]
+            },
+            {
+              "day": "Day 7",
+              "exercises": [
+                { "name": "Stretch/Yoga", "sets": 1, "reps": "15 min", "weight": "Bodyweight" }
+              ]
             }
           ]
         }
       ]
-    },
+    }
+  ],
+  "mealPlans": [
     {
-      "week": 2,
-      "days": [
+      "planName": "Pescatarian Strength Gain",
+      "planCalories": "2500 cal/day",
+      "planDuration": "4 weeks",
+      "weeklyPlans": [
         {
-          "day": 1,
-          "exercises": [
+          "week": 1,
+          "days": [
             {
-              "name": "Push-ups",
-              "sets": 3,
-              "reps": 12
+              "day": "Day 1",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Omelette with Spinach and Feta",
+                "lunch": "Tuna Salad with Quinoa",
+                "dinner": "Grilled Salmon with Sweet Potatoes",
+                "snack": "Hummus with Carrot Sticks"
+              }
             },
             {
-              "name": "Squats",
-              "sets": 3,
-              "reps": 15
-            }
-          ]
-        },
-        {
-          "day": 2,
-          "exercises": []
-        },
-        {
-          "day": 3,
-          "exercises": [
-            {
-              "name": "Plank",
-              "sets": 3,
-              "duration": "40s"
+              "day": "Day 2",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Chia Seed Pudding with Berries",
+                "lunch": "Shrimp Tacos with Cabbage Slaw",
+                "dinner": "Baked Cod with Brown Rice",
+                "snack": "Greek Yogurt with Honey"
+              }
             },
             {
-              "name": "Lunges",
-              "sets": 3,
-              "reps": 12
-            }
-          ]
-        },
-        {
-          "day": 4,
-          "exercises": []
-        },
-        {
-          "day": 5,
-          "exercises": [
-            {
-              "name": "Burpees",
-              "sets": 3,
-              "reps": 10
+              "day": "Day 3",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Smoothie with Spinach and Protein Powder",
+                "lunch": "Salmon Sushi Rolls",
+                "dinner": "Pasta with Pesto and Grilled Vegetables",
+                "snack": "Mixed Nuts"
+              }
             },
             {
-              "name": "Deadlifts",
-              "sets": 3,
-              "reps": 12
-            }
-          ]
-        },
-        {
-          "day": 6,
-          "exercises": []
-        },
-        {
-          "day": 7,
-          "exercises": [
-            {
-              "name": "Mountain Climbers",
-              "sets": 3,
-              "duration": "40s"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "week": 3,
-      "days": [
-        {
-          "day": 1,
-          "exercises": [
-            {
-              "name": "Push-ups",
-              "sets": 3,
-              "reps": 15
+              "day": "Day 4",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Avocado Toast with Poached Egg",
+                "lunch": "Quinoa Bowl with Chickpeas and Veggies",
+                "dinner": "Grilled Mahi-Mahi with Couscous",
+                "snack": "Cottage Cheese with Pineapple"
+              }
             },
             {
-              "name": "Squats",
-              "sets": 3,
-              "reps": 20
-            }
-          ]
-        },
-        {
-          "day": 2,
-          "exercises": []
-        },
-        {
-          "day": 3,
-          "exercises": [
-            {
-              "name": "Plank",
-              "sets": 3,
-              "duration": "50s"
+              "day": "Day 5",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Egg and Veggie Scramble",
+                "lunch": "Lentil Salad with Feta",
+                "dinner": "Seafood Paella",
+                "snack": "Protein Bar"
+              }
             },
             {
-              "name": "Lunges",
-              "sets": 3,
-              "reps": 15
-            }
-          ]
-        },
-        {
-          "day": 4,
-          "exercises": []
-        },
-        {
-          "day": 5,
-          "exercises": [
-            {
-              "name": "Burpees",
-              "sets": 3,
-              "reps": 12
+              "day": "Day 6",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Fruit Smoothie with Yogurt",
+                "lunch": "Tuna Wrap with Spinach",
+                "dinner": "Grilled Shrimp with Quinoa",
+                "snack": "Dark Chocolate"
+              }
             },
             {
-              "name": "Deadlifts",
-              "sets": 3,
-              "reps": 15
+              "day": "Day 7",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Pancakes with Maple Syrup",
+                "lunch": "Vegetable Stir-Fry with Tofu",
+                "dinner": "Baked Salmon with Asparagus",
+                "snack": "Trail Mix"
+              }
             }
           ]
         },
         {
-          "day": 6,
-          "exercises": []
-        },
-        {
-          "day": 7,
-          "exercises": [
+          "week": 2,
+          "days": [
             {
-              "name": "Mountain Climbers",
-              "sets": 3,
-              "duration": "50s"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "week": 4,
-      "days": [
-        {
-          "day": 1,
-          "exercises": [
-            {
-              "name": "Push-ups",
-              "sets": 4,
-              "reps": 15
+              "day": "Day 1",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Omelette with Spinach and Feta",
+                "lunch": "Tuna Salad with Quinoa",
+                "dinner": "Grilled Salmon with Sweet Potatoes",
+                "snack": "Hummus with Carrot Sticks"
+              }
             },
             {
-              "name": "Squats",
-              "sets": 4,
-              "reps": 20
-            }
-          ]
-        },
-        {
-          "day": 2,
-          "exercises": []
-        },
-        {
-          "day": 3,
-          "exercises": [
-            {
-              "name": "Plank",
-              "sets": 4,
-              "duration": "60s"
+              "day": "Day 2",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Chia Seed Pudding with Berries",
+                "lunch": "Shrimp Tacos with Cabbage Slaw",
+                "dinner": "Baked Cod with Brown Rice",
+                "snack": "Greek Yogurt with Honey"
+              }
             },
             {
-              "name": "Lunges",
-              "sets": 4,
-              "reps": 15
-            }
-          ]
-        },
-        {
-          "day": 4,
-          "exercises": []
-        },
-        {
-          "day": 5,
-          "exercises": [
-            {
-              "name": "Burpees",
-              "sets": 4,
-              "reps": 12
+              "day": "Day 3",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Smoothie with Spinach and Protein Powder",
+                "lunch": "Salmon Sushi Rolls",
+                "dinner": "Pasta with Pesto and Grilled Vegetables",
+                "snack": "Mixed Nuts"
+              }
             },
             {
-              "name": "Deadlifts",
-              "sets": 4,
-              "reps": 15
-            }
-          ]
-        },
-        {
-          "day": 6,
-          "exercises": []
-        },
-        {
-          "day": 7,
-          "exercises": [
-            {
-              "name": "Mountain Climbers",
-              "sets": 4,
-              "duration": "60s"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "week": 5,
-      "days": [
-        {
-          "day": 1,
-          "exercises": [
-            {
-              "name": "Push-ups",
-              "sets": 4,
-              "reps": 18
+              "day": "Day 4",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Avocado Toast with Poached Egg",
+                "lunch": "Quinoa Bowl with Chickpeas and Veggies",
+                "dinner": "Grilled Mahi-Mahi with Couscous",
+                "snack": "Cottage Cheese with Pineapple"
+              }
             },
             {
-              "name": "Squats",
-              "sets": 4,
-              "reps": 25
-            }
-          ]
-        },
-        {
-          "day": 2,
-          "exercises": []
-        },
-        {
-          "day": 3,
-          "exercises": [
-            {
-              "name": "Plank",
-              "sets": 4,
-              "duration": "70s"
+              "day": "Day 5",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Egg and Veggie Scramble",
+                "lunch": "Lentil Salad with Feta",
+                "dinner": "Seafood Paella",
+                "snack": "Protein Bar"
+              }
             },
             {
-              "name": "Lunges",
-              "sets": 4,
-              "reps": 18
-            }
-          ]
-        },
-        {
-          "day": 4,
-          "exercises": []
-        },
-        {
-          "day": 5,
-          "exercises": [
-            {
-              "name": "Burpees",
-              "sets": 4,
-              "reps": 15
+              "day": "Day 6",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Fruit Smoothie with Yogurt",
+                "lunch": "Tuna Wrap with Spinach",
+                "dinner": "Grilled Shrimp with Quinoa",
+                "snack": "Dark Chocolate"
+              }
             },
             {
-              "name": "Deadlifts",
-              "sets": 4,
-              "reps": 18
+              "day": "Day 7",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Pancakes with Maple Syrup",
+                "lunch": "Vegetable Stir-Fry with Tofu",
+                "dinner": "Baked Salmon with Asparagus",
+                "snack": "Trail Mix"
+              }
             }
           ]
         },
         {
-          "day": 6,
-          "exercises": []
-        },
-        {
-          "day": 7,
-          "exercises": [
+          "week": 3,
+          "days": [
             {
-              "name": "Mountain Climbers",
-              "sets": 4,
-              "duration": "70s"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "week": 6,
-      "days": [
-        {
-          "day": 1,
-          "exercises": [
-            {
-              "name": "Push-ups",
-              "sets": 4,
-              "reps": 20
+              "day": "Day 1",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Omelette with Spinach and Feta",
+                "lunch": "Tuna Salad with Quinoa",
+                "dinner": "Grilled Salmon with Sweet Potatoes",
+                "snack": "Hummus with Carrot Sticks"
+              }
             },
             {
-              "name": "Squats",
-              "sets": 4,
-              "reps": 25
-            }
-          ]
-        },
-        {
-          "day": 2,
-          "exercises": []
-        },
-        {
-          "day": 3,
-          "exercises": [
-            {
-              "name": "Plank",
-              "sets": 4,
-              "duration": "80s"
+              "day": "Day 2",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Chia Seed Pudding with Berries",
+                "lunch": "Shrimp Tacos with Cabbage Slaw",
+                "dinner": "Baked Cod with Brown Rice",
+                "snack": "Greek Yogurt with Honey"
+              }
             },
             {
-              "name": "Lunges",
-              "sets": 4,
-              "reps": 20
-            }
-          ]
-        },
-        {
-          "day": 4,
-          "exercises": []
-        },
-        {
-          "day": 5,
-          "exercises": [
-            {
-              "name": "Burpees",
-              "sets": 4,
-              "reps": 18
+              "day": "Day 3",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Smoothie with Spinach and Protein Powder",
+                "lunch": "Salmon Sushi Rolls",
+                "dinner": "Pasta with Pesto and Grilled Vegetables",
+                "snack": "Mixed Nuts"
+              }
             },
             {
-              "name": "Deadlifts",
-              "sets": 4,
-              "reps": 20
-            }
-          ]
-        },
-        {
-          "day": 6,
-          "exercises": []
-        },
-        {
-          "day": 7,
-          "exercises": [
-            {
-              "name": "Mountain Climbers",
-              "sets": 4,
-              "duration": "80s"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "week": 7,
-      "days": [
-        {
-          "day": 1,
-          "exercises": [
-            {
-              "name": "Push-ups",
-              "sets": 5,
-              "reps": 20
+              "day": "Day 4",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Avocado Toast with Poached Egg",
+                "lunch": "Quinoa Bowl with Chickpeas and Veggies",
+                "dinner": "Grilled Mahi-Mahi with Couscous",
+                "snack": "Cottage Cheese with Pineapple"
+              }
             },
             {
-              "name": "Squats",
-              "sets": 5,
-              "reps": 30
-            }
-          ]
-        },
-        {
-          "day": 2,
-          "exercises": []
-        },
-        {
-          "day": 3,
-          "exercises": [
-            {
-              "name": "Plank",
-              "sets": 5,
-              "duration": "90s"
+              "day": "Day 5",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Egg and Veggie Scramble",
+                "lunch": "Lentil Salad with Feta",
+                "dinner": "Seafood Paella",
+                "snack": "Protein Bar"
+              }
             },
             {
-              "name": "Lunges",
-              "sets": 5,
-              "reps": 20
-            }
-          ]
-        },
-        {
-          "day": 4,
-          "exercises": []
-        },
-        {
-          "day": 5,
-          "exercises": [
-            {
-              "name": "Burpees",
-              "sets": 5,
-              "reps": 20
+              "day": "Day 6",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Fruit Smoothie with Yogurt",
+                "lunch": "Tuna Wrap with Spinach",
+                "dinner": "Grilled Shrimp with Quinoa",
+                "snack": "Dark Chocolate"
+              }
             },
             {
-              "name": "Deadlifts",
-              "sets": 5,
-              "reps": 25
+              "day": "Day 7",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Pancakes with Maple Syrup",
+                "lunch": "Vegetable Stir-Fry with Tofu",
+                "dinner": "Baked Salmon with Asparagus",
+                "snack": "Trail Mix"
+              }
             }
           ]
         },
         {
-          "day": 6,
-          "exercises": []
-        },
-        {
-          "day": 7,
-          "exercises": [
+          "week": 4,
+          "days": [
             {
-              "name": "Mountain Climbers",
-              "sets": 5,
-              "duration": "90s"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "week": 8,
-      "days": [
-        {
-          "day": 1,
-          "exercises": [
-            {
-              "name": "Push-ups",
-              "sets": 5,
-              "reps": 25
+              "day": "Day 1",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Omelette with Spinach and Feta",
+                "lunch": "Tuna Salad with Quinoa",
+                "dinner": "Grilled Salmon with Sweet Potatoes",
+                "snack": "Hummus with Carrot Sticks"
+              }
             },
             {
-              "name": "Squats",
-              "sets": 5,
-              "reps": 30
-            }
-          ]
-        },
-        {
-          "day": 2,
-          "exercises": []
-        },
-        {
-          "day": 3,
-          "exercises": [
-            {
-              "name": "Plank",
-              "sets": 5,
-              "duration": "100s"
+              "day": "Day 2",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Chia Seed Pudding with Berries",
+                "lunch": "Shrimp Tacos with Cabbage Slaw",
+                "dinner": "Baked Cod with Brown Rice",
+                "snack": "Greek Yogurt with Honey"
+              }
             },
             {
-              "name": "Lunges",
-              "sets": 5,
-              "reps": 25
-            }
-          ]
-        },
-        {
-          "day": 4,
-          "exercises": []
-        },
-        {
-          "day": 5,
-          "exercises": [
-            {
-              "name": "Burpees",
-              "sets": 5,
-              "reps": 25
+              "day": "Day 3",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Smoothie with Spinach and Protein Powder",
+                "lunch": "Salmon Sushi Rolls",
+                "dinner": "Pasta with Pesto and Grilled Vegetables",
+                "snack": "Mixed Nuts"
+              }
             },
             {
-              "name": "Deadlifts",
-              "sets": 5,
-              "reps": 30
-            }
-          ]
-        },
-        {
-          "day": 6,
-          "exercises": []
-        },
-        {
-          "day": 7,
-          "exercises": [
-            {
-              "name": "Mountain Climbers",
-              "sets": 5,
-              "duration": "100s"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "week": 9,
-      "days": [
-        {
-          "day": 1,
-          "exercises": [
-            {
-              "name": "Push-ups",
-              "sets": 5,
-              "reps": 30
+              "day": "Day 4",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Avocado Toast with Poached Egg",
+                "lunch": "Quinoa Bowl with Chickpeas and Veggies",
+                "dinner": "Grilled Mahi-Mahi with Couscous",
+                "snack": "Cottage Cheese with Pineapple"
+              }
             },
             {
-              "name": "Squats",
-              "sets": 5,
-              "reps": 35
-            }
-          ]
-        },
-        {
-          "day": 2,
-          "exercises": []
-        },
-        {
-          "day": 3,
-          "exercises": [
-            {
-              "name": "Plank",
-              "sets": 5,
-              "duration": "110s"
+              "day": "Day 5",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Egg and Veggie Scramble",
+                "lunch": "Lentil Salad with Feta",
+                "dinner": "Seafood Paella",
+                "snack": "Protein Bar"
+              }
             },
             {
-              "name": "Lunges",
-              "sets": 5,
-              "reps": 30
-            }
-          ]
-        },
-        {
-          "day": 4,
-          "exercises": []
-        },
-        {
-          "day": 5,
-          "exercises": [
-            {
-              "name": "Burpees",
-              "sets": 5,
-              "reps": 30
+              "day": "Day 6",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Fruit Smoothie with Yogurt",
+                "lunch": "Tuna Wrap with Spinach",
+                "dinner": "Grilled Shrimp with Quinoa",
+                "snack": "Dark Chocolate"
+              }
             },
             {
-              "name": "Deadlifts",
-              "sets": 5,
-              "reps": 35
-            }
-          ]
-        },
-        {
-          "day": 6,
-          "exercises": []
-        },
-        {
-          "day": 7,
-          "exercises": [
-            {
-              "name": "Mountain Climbers",
-              "sets": 5,
-              "duration": "110s"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "week": 10,
-      "days": [
-        {
-          "day": 1,
-          "exercises": [
-            {
-              "name": "Push-ups",
-              "sets": 5,
-              "reps": 35
-            },
-            {
-              "name": "Squats",
-              "sets": 5,
-              "reps": 40
-            }
-          ]
-        },
-        {
-          "day": 2,
-          "exercises": []
-        },
-        {
-          "day": 3,
-          "exercises": [
-            {
-              "name": "Plank",
-              "sets": 5,
-              "duration": "120s"
-            },
-            {
-              "name": "Lunges",
-              "sets": 5,
-              "reps": 35
-            }
-          ]
-        },
-        {
-          "day": 4,
-          "exercises": []
-        },
-        {
-          "day": 5,
-          "exercises": [
-            {
-              "name": "Burpees",
-              "sets": 5,
-              "reps": 35
-            },
-            {
-              "name": "Deadlifts",
-              "sets": 5,
-              "reps": 40
-            }
-          ]
-        },
-        {
-          "day": 6,
-          "exercises": []
-        },
-        {
-          "day": 7,
-          "exercises": [
-            {
-              "name": "Mountain Climbers",
-              "sets": 5,
-              "duration": "120s"
+              "day": "Day 7",
+              "totalCalories": "2500 cal",
+              "macros": { "protein": "150g", "carbs": "300g", "fat": "70g" },
+              "meals": {
+                "breakfast": "Pancakes with Maple Syrup",
+                "lunch": "Vegetable Stir-Fry with Tofu",
+                "dinner": "Baked Salmon with Asparagus",
+                "snack": "Trail Mix"
+              }
             }
           ]
         }

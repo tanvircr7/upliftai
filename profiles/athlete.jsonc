@@ -1,0 +1,8 @@
+{
+  // athlete
+  "age": 22,
+  "goal": "strength gain",
+  "experience": "athlete",
+  "constraints": [""],
+  "diet": "Keto"
+}

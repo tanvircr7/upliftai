@@ -4,7 +4,7 @@ program_task:
 
     (A) TEMPLATE (json-ish): it shows the target structure and examples.
         It may contain human comments. Treat comments as guidance only.
-        If TEMPLATE shows only week 1, GENERATE weeks 1..10 by following the
+        If TEMPLATE shows only week 1, GENERATE weeks 1..4 by following the
         same structure and style. Keep exactly the same keys and array nesting.
 
     (B) USER PROFILE (json-ish): comments allowed; use only to CHANGE VALUES.
@@ -17,13 +17,248 @@ program_task:
     - If something isn't specified, choose sensible values; keep units consistent.
     - If a day is rest, keep "exercises": [].
 
-    TEMPLATE:
-    {template_text}
+    USER PROFILE:
+    {profile_text}
+    
+  expected_output: >
+    A single JSON object mirroring the TEMPLATE structure, values tailored to
+    the USER PROFILE, covering weeks 1..4.
+
+    {
+      "workoutPlans": [
+        {
+          "planName": "HIIT",
+          "planType": "High-Intensity Interval Training",
+          "planDuration": "1 week",
+          "weeklyPlans": [
+            {
+              "week": 1,
+              "days": [
+                {
+                  "day": "Day 1",
+                  "exercises": [
+                    { "name": "Jump Squats", "sets": 4, "reps": "40s", "weight": "Bodyweight" },
+                    { "name": "Mountain Climbers", "sets": 4, "reps": "40s", "weight": "Bodyweight" },
+                    { "name": "Plank", "sets": 3, "reps": "30s", "weight": "Bodyweight" }
+                  ]
+                },
+                {
+                  "day": "Day 2",
+                  "exercises": [
+                    { "name": "Burpees", "sets": 4, "reps": "30s", "weight": "Bodyweight" },
+                    { "name": "High Knees", "sets": 4, "reps": "40s", "weight": "Bodyweight" },
+                    { "name": "Push-Ups", "sets": 3, "reps": 15, "weight": "Bodyweight" }
+                  ]
+                },
+                {
+                  "day": "Day 3",
+                  "exercises": [
+                    { "name": "Lunges", "sets": 3, "reps": "40s", "weight": "Bodyweight" },
+                    { "name": "Jumping Jacks", "sets": 4, "reps": "30s", "weight": "Bodyweight" },
+                    { "name": "Mountain Climbers", "sets": 4, "reps": "40s", "weight": "Bodyweight" }
+                  ]
+                },
+                {
+                  "day": "Day 4",
+                  "exercises": []
+                },
+                {
+                  "day": "Day 5",
+                  "exercises": [
+                    { "name": "Push-Ups", "sets": 4, "reps": 15, "weight": "Bodyweight" },
+                    { "name": "Jump Rope", "sets": 4, "reps": "1 min", "weight": "Bodyweight" }
+                  ]
+                },
+                {
+                  "day": "Day 6",
+                  "exercises": [
+                    { "name": "Mountain Climbers", "sets": 4, "reps": "40s", "weight": "Bodyweight" },
+                    { "name": "Plank", "sets": 3, "reps": "45s", "weight": "Bodyweight" }
+                  ]
+                },
+                {
+                  "day": "Day 7",
+                  "exercises": [
+                    { "name": "Stretch/Yoga", "sets": 1, "reps": "15 min", "weight": "Bodyweight" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "mealPlans": [
+        {
+          "planName": "Lose Weight",
+          "planCalories": "1800 cal/day",
+          "planDuration": "3 weeks",
+          "weeklyPlans": [
+            {
+              "week": 1,
+              "days": [
+                {
+                  "day": "Day 1",
+                  "totalCalories": "1800 cal",
+                  "macros": { "protein": "25g", "carbs": "200g", "fat": "60g" },
+                  "meals": {
+                    "breakfast": "Scrambled Eggs with Avocado Toast",
+                    "lunch": "Quinoa Salad with Veggies",
+                    "dinner": "Grilled Chicken with Broccoli",
+                    "snack": "Greek Yogurt with Berries"
+                  }
+                },
+                {
+                  "day": "Day 2",
+                  "totalCalories": "1800 cal",
+                  "macros": { "protein": "25g", "carbs": "200g", "fat": "60g" },
+                  "meals": {
+                    "breakfast": "Oatmeal with Fresh Berries",
+                    "lunch": "Turkey Wrap with Spinach",
+                    "dinner": "Salmon with Asparagus",
+                    "snack": "Almonds and Apple"
+                  }
+                }
+                /* Add other days here */
+              ]
+            }
+            /* Add week 2 and 3 here */
+          ]
+        }
+      ]
+    }
+
+
+  agent: generator
+  output_file: output/program.json
+program_task:
+  description: >
+    You will receive two text blocks:
+
+    (A) TEMPLATE (json-ish): it shows the target structure and examples.
+        It may contain human comments. Treat comments as guidance only.
+        If TEMPLATE shows only week 1, GENERATE weeks 1..4 by following the
+        same structure and style. Keep exactly the same keys and array nesting.
+
+    (B) USER PROFILE (json-ish): comments allowed; use only to CHANGE VALUES.
+
+    HARD RULES:
+    - Output ONE object of STRICT, VALID JSON.
+    - EXACT SAME keys and nesting as TEMPLATE.
+    - DO NOT add/remove/rename keys.
+    - NO comments, NO markdown, NO extra text around the JSON.
+    - If something isn't specified, choose sensible values; keep units consistent.
+    - If a day is rest, keep "exercises": [].
 
     USER PROFILE:
     {profile_text}
+
   expected_output: >
     A single JSON object mirroring the TEMPLATE structure, values tailored to
-    the USER PROFILE, covering weeks 1..10.
+    the USER PROFILE, covering weeks 1..4.
+
+    {
+      "workoutPlans": [
+        {
+          "planName": "HIIT",
+          "planType": "High-Intensity Interval Training",
+          "planDuration": "1 week",
+          "weeklyPlans": [
+            {
+              "week": 1,
+              "days": [
+                {
+                  "day": "Day 1",
+                  "exercises": [
+                    { "name": "Jump Squats", "sets": 4, "reps": "40s", "weight": "Bodyweight" },
+                    { "name": "Mountain Climbers", "sets": 4, "reps": "40s", "weight": "Bodyweight" },
+                    { "name": "Plank", "sets": 3, "reps": "30s", "weight": "Bodyweight" }
+                  ]
+                },
+                {
+                  "day": "Day 2",
+                  "exercises": [
+                    { "name": "Burpees", "sets": 4, "reps": "30s", "weight": "Bodyweight" },
+                    { "name": "High Knees", "sets": 4, "reps": "40s", "weight": "Bodyweight" },
+                    { "name": "Push-Ups", "sets": 3, "reps": 15, "weight": "Bodyweight" }
+                  ]
+                },
+                {
+                  "day": "Day 3",
+                  "exercises": [
+                    { "name": "Lunges", "sets": 3, "reps": "40s", "weight": "Bodyweight" },
+                    { "name": "Jumping Jacks", "sets": 4, "reps": "30s", "weight": "Bodyweight" },
+                    { "name": "Mountain Climbers", "sets": 4, "reps": "40s", "weight": "Bodyweight" }
+                  ]
+                },
+                {
+                  "day": "Day 4",
+                  "exercises": []
+                },
+                {
+                  "day": "Day 5",
+                  "exercises": [
+                    { "name": "Push-Ups", "sets": 4, "reps": 15, "weight": "Bodyweight" },
+                    { "name": "Jump Rope", "sets": 4, "reps": "1 min", "weight": "Bodyweight" }
+                  ]
+                },
+                {
+                  "day": "Day 6",
+                  "exercises": [
+                    { "name": "Mountain Climbers", "sets": 4, "reps": "40s", "weight": "Bodyweight" },
+                    { "name": "Plank", "sets": 3, "reps": "45s", "weight": "Bodyweight" }
+                  ]
+                },
+                {
+                  "day": "Day 7",
+                  "exercises": [
+                    { "name": "Stretch/Yoga", "sets": 1, "reps": "15 min", "weight": "Bodyweight" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "mealPlans": [
+        {
+          "planName": "Lose Weight",
+          "planCalories": "1800 cal/day",
+          "planDuration": "3 weeks",
+          "weeklyPlans": [
+            {
+              "week": 1,
+              "days": [
+                {
+                  "day": "Day 1",
+                  "totalCalories": "1800 cal",
+                  "macros": { "protein": "25g", "carbs": "200g", "fat": "60g" },
+                  "meals": {
+                    "breakfast": "Scrambled Eggs with Avocado Toast",
+                    "lunch": "Quinoa Salad with Veggies",
+                    "dinner": "Grilled Chicken with Broccoli",
+                    "snack": "Greek Yogurt with Berries"
+                  }
+                },
+                {
+                  "day": "Day 2",
+                  "totalCalories": "1800 cal",
+                  "macros": { "protein": "25g", "carbs": "200g", "fat": "60g" },
+                  "meals": {
+                    "breakfast": "Oatmeal with Fresh Berries",
+                    "lunch": "Turkey Wrap with Spinach",
+                    "dinner": "Salmon with Asparagus",
+                    "snack": "Almonds and Apple"
+                  }
+                }
+                /* Add other days here */
+              ]
+            }
+            /* Add week 2 and 3 here */
+          ]
+        }
+      ]
+    }
+
+
   agent: generator
   output_file: output/program.json
