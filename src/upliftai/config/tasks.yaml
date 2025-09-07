@@ -4,7 +4,7 @@ program_task:
 
     (A) TEMPLATE (json-ish): it shows the target structure and examples.
         It may contain human comments. Treat comments as guidance only.
-        If TEMPLATE shows only week 1, GENERATE weeks 1..4 by following the
+        If TEMPLATE shows only week 1, GENERATE weeks 1..{num_weeks} by following the
         same structure and style. Keep exactly the same keys and array nesting.
 
     (B) USER PROFILE (json-ish): comments allowed; use only to CHANGE VALUES.
@@ -22,7 +22,7 @@ program_task:
     
   expected_output: >
     A single JSON object mirroring the TEMPLATE structure, values tailored to
-    the USER PROFILE, covering weeks 1..4.
+    the USER PROFILE, covering weeks 1..{num_weeks}.
 
     {
       "workoutPlans": [
@@ -136,7 +136,7 @@ program_task:
 
     (A) TEMPLATE (json-ish): it shows the target structure and examples.
         It may contain human comments. Treat comments as guidance only.
-        If TEMPLATE shows only week 1, GENERATE weeks 1..4 by following the
+        If TEMPLATE shows only week 1, GENERATE weeks 1..{num_weeks} by following the
         same structure and style. Keep exactly the same keys and array nesting.
 
     (B) USER PROFILE (json-ish): comments allowed; use only to CHANGE VALUES.
@@ -154,7 +154,7 @@ program_task:
 
   expected_output: >
     A single JSON object mirroring the TEMPLATE structure, values tailored to
-    the USER PROFILE, covering weeks 1..4.
+    the USER PROFILE, covering weeks 1..{num_weeks}.
 
     {
       "workoutPlans": [

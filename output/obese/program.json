@@ -1,0 +1,904 @@
+{
+  "workoutPlans": [
+    {
+      "planName": "Low Impact Cardio",
+      "planType": "Low Impact Cardio Training",
+      "planDuration": "4 weeks",
+      "weeklyPlans": [
+        {
+          "week": 1,
+          "days": [
+            {
+              "day": "Day 1",
+              "exercises": [
+                {
+                  "name": "Bodyweight Squats",
+                  "sets": 3,
+                  "reps": 10,
+                  "weight": "Bodyweight"
+                },
+                {
+                  "name": "Seated Leg Lifts",
+                  "sets": 3,
+                  "reps": 10,
+                  "weight": "Bodyweight"
+                },
+                {
+                  "name": "Wall Push-Ups",
+                  "sets": 3,
+                  "reps": 10,
+                  "weight": "Bodyweight"
+                }
+              ]
+            },
+            {
+              "day": "Day 2",
+              "exercises": [
+                {
+                  "name": "Step-Ups",
+                  "sets": 3,
+                  "reps": 10,
+                  "weight": "Bodyweight"
+                },
+                {
+                  "name": "Seated Marching",
+                  "sets": 3,
+                  "reps": 10,
+                  "weight": "Bodyweight"
+                },
+                {
+                  "name": "Side Leg Raises",
+                  "sets": 3,
+                  "reps": 10,
+                  "weight": "Bodyweight"
+                }
+              ]
+            },
+            {
+              "day": "Day 3",
+              "exercises": [
+                {
+                  "name": "Chair Yoga",
+                  "sets": 1,
+                  "reps": "15 min",
+                  "weight": "Bodyweight"
+                },
+                {
+                  "name": "Standing Calf Raises",
+                  "sets": 3,
+                  "reps": 10,
+                  "weight": "Bodyweight"
+                }
+              ]
+            },
+            {
+              "day": "Day 4",
+              "exercises": []
+            },
+            {
+              "day": "Day 5",
+              "exercises": [
+                {
+                  "name": "Seated Row with Resistance Band",
+                  "sets": 3,
+                  "reps": 10,
+                  "weight": "Resistance Band"
+                },
+                {
+                  "name": "Modified Plank",
+                  "sets": 3,
+                  "reps": "20s",
+                  "weight": "Bodyweight"
+                }
+              ]
+            },
+            {
+              "day": "Day 6",
+              "exercises": [
+                {
+                  "name": "Gentle Stretching",
+                  "sets": 1,
+                  "reps": "15 min",
+                  "weight": "Bodyweight"
+                }
+              ]
+            },
+            {
+              "day": "Day 7",
+              "exercises": [
+                {
+                  "name": "Walking",
+                  "sets": 1,
+                  "reps": "20 min",
+                  "weight": "Bodyweight"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "days": [
+            {
+              "day": "Day 1",
+              "exercises": [
+                {
+                  "name": "Bodyweight Squats",
+                  "sets": 3,
+                  "reps": 12,
+                  "weight": "Bodyweight"
+                },
+                {
+                  "name": "Seated Leg Lifts",
+                  "sets": 3,
+                  "reps": 12,
+                  "weight": "Bodyweight"
+                },
+                {
+                  "name": "Wall Push-Ups",
+                  "sets": 3,
+                  "reps": 12,
+                  "weight": "Bodyweight"
+                }
+              ]
+            },
+            {
+              "day": "Day 2",
+              "exercises": [
+                {
+                  "name": "Step-Ups",
+                  "sets": 3,
+                  "reps": 12,
+                  "weight": "Bodyweight"
+                },
+                {
+                  "name": "Seated Marching",
+                  "sets": 3,
+                  "reps": 12,
+                  "weight": "Bodyweight"
+                },
+                {
+                  "name": "Side Leg Raises",
+                  "sets": 3,
+                  "reps": 12,
+                  "weight": "Bodyweight"
+                }
+              ]
+            },
+            {
+              "day": "Day 3",
+              "exercises": [
+                {
+                  "name": "Chair Yoga",
+                  "sets": 1,
+                  "reps": "20 min",
+                  "weight": "Bodyweight"
+                },
+                {
+                  "name": "Standing Calf Raises",
+                  "sets": 3,
+                  "reps": 12,
+                  "weight": "Bodyweight"
+                }
+              ]
+            },
+            {
+              "day": "Day 4",
+              "exercises": []
+            },
+            {
+              "day": "Day 5",
+              "exercises": [
+                {
+                  "name": "Seated Row with Resistance Band",
+                  "sets": 3,
+                  "reps": 12,
+                  "weight": "Resistance Band"
+                },
+                {
+                  "name": "Modified Plank",
+                  "sets": 3,
+                  "reps": "30s",
+                  "weight": "Bodyweight"
+                }
+              ]
+            },
+            {
+              "day": "Day 6",
+              "exercises": [
+                {
+                  "name": "Gentle Stretching",
+                  "sets": 1,
+                  "reps": "20 min",
+                  "weight": "Bodyweight"
+                }
+              ]
+            },
+            {
+              "day": "Day 7",
+              "exercises": [
+                {
+                  "name": "Walking",
+                  "sets": 1,
+                  "reps": "25 min",
+                  "weight": "Bodyweight"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "days": [
+            {
+              "day": "Day 1",
+              "exercises": [
+                {
+                  "name": "Bodyweight Squats",
+                  "sets": 3,
+                  "reps": 15,
+                  "weight": "Bodyweight"
+                },
+                {
+                  "name": "Seated Leg Lifts",
+                  "sets": 3,
+                  "reps": 15,
+                  "weight": "Bodyweight"
+                },
+                {
+                  "name": "Wall Push-Ups",
+                  "sets": 3,
+                  "reps": 15,
+                  "weight": "Bodyweight"
+                }
+              ]
+            },
+            {
+              "day": "Day 2",
+              "exercises": [
+                {
+                  "name": "Step-Ups",
+                  "sets": 3,
+                  "reps": 15,
+                  "weight": "Bodyweight"
+                },
+                {
+                  "name": "Seated Marching",
+                  "sets": 3,
+                  "reps": 15,
+                  "weight": "Bodyweight"
+                },
+                {
+                  "name": "Side Leg Raises",
+                  "sets": 3,
+                  "reps": 15,
+                  "weight": "Bodyweight"
+                }
+              ]
+            },
+            {
+              "day": "Day 3",
+              "exercises": [
+                {
+                  "name": "Chair Yoga",
+                  "sets": 1,
+                  "reps": "25 min",
+                  "weight": "Bodyweight"
+                },
+                {
+                  "name": "Standing Calf Raises",
+                  "sets": 3,
+                  "reps": 15,
+                  "weight": "Bodyweight"
+                }
+              ]
+            },
+            {
+              "day": "Day 4",
+              "exercises": []
+            },
+            {
+              "day": "Day 5",
+              "exercises": [
+                {
+                  "name": "Seated Row with Resistance Band",
+                  "sets": 3,
+                  "reps": 15,
+                  "weight": "Resistance Band"
+                },
+                {
+                  "name": "Modified Plank",
+                  "sets": 3,
+                  "reps": "40s",
+                  "weight": "Bodyweight"
+                }
+              ]
+            },
+            {
+              "day": "Day 6",
+              "exercises": [
+                {
+                  "name": "Gentle Stretching",
+                  "sets": 1,
+                  "reps": "25 min",
+                  "weight": "Bodyweight"
+                }
+              ]
+            },
+            {
+              "day": "Day 7",
+              "exercises": [
+                {
+                  "name": "Walking",
+                  "sets": 1,
+                  "reps": "30 min",
+                  "weight": "Bodyweight"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "days": [
+            {
+              "day": "Day 1",
+              "exercises": [
+                {
+                  "name": "Bodyweight Squats",
+                  "sets": 3,
+                  "reps": 15,
+                  "weight": "Bodyweight"
+                },
+                {
+                  "name": "Seated Leg Lifts",
+                  "sets": 3,
+                  "reps": 15,
+                  "weight": "Bodyweight"
+                },
+                {
+                  "name": "Wall Push-Ups",
+                  "sets": 3,
+                  "reps": 15,
+                  "weight": "Bodyweight"
+                }
+              ]
+            },
+            {
+              "day": "Day 2",
+              "exercises": [
+                {
+                  "name": "Step-Ups",
+                  "sets": 3,
+                  "reps": 15,
+                  "weight": "Bodyweight"
+                },
+                {
+                  "name": "Seated Marching",
+                  "sets": 3,
+                  "reps": 15,
+                  "weight": "Bodyweight"
+                },
+                {
+                  "name": "Side Leg Raises",
+                  "sets": 3,
+                  "reps": 15,
+                  "weight": "Bodyweight"
+                }
+              ]
+            },
+            {
+              "day": "Day 3",
+              "exercises": [
+                {
+                  "name": "Chair Yoga",
+                  "sets": 1,
+                  "reps": "30 min",
+                  "weight": "Bodyweight"
+                },
+                {
+                  "name": "Standing Calf Raises",
+                  "sets": 3,
+                  "reps": 15,
+                  "weight": "Bodyweight"
+                }
+              ]
+            },
+            {
+              "day": "Day 4",
+              "exercises": []
+            },
+            {
+              "day": "Day 5",
+              "exercises": [
+                {
+                  "name": "Seated Row with Resistance Band",
+                  "sets": 3,
+                  "reps": 15,
+                  "weight": "Resistance Band"
+                },
+                {
+                  "name": "Modified Plank",
+                  "sets": 3,
+                  "reps": "50s",
+                  "weight": "Bodyweight"
+                }
+              ]
+            },
+            {
+              "day": "Day 6",
+              "exercises": [
+                {
+                  "name": "Gentle Stretching",
+                  "sets": 1,
+                  "reps": "30 min",
+                  "weight": "Bodyweight"
+                }
+              ]
+            },
+            {
+              "day": "Day 7",
+              "exercises": [
+                {
+                  "name": "Walking",
+                  "sets": 1,
+                  "reps": "35 min",
+                  "weight": "Bodyweight"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mealPlans": [
+    {
+      "planName": "Lose Weight",
+      "planCalories": "1800 cal/day",
+      "planDuration": "4 weeks",
+      "weeklyPlans": [
+        {
+          "week": 1,
+          "days": [
+            {
+              "day": "Day 1",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Scrambled Eggs with Avocado Toast",
+                "lunch": "Quinoa Salad with Veggies",
+                "dinner": "Grilled Chicken with Broccoli",
+                "snack": "Greek Yogurt with Berries"
+              }
+            },
+            {
+              "day": "Day 2",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Oatmeal with Fresh Berries",
+                "lunch": "Turkey Wrap with Spinach",
+                "dinner": "Salmon with Asparagus",
+                "snack": "Almonds and Apple"
+              }
+            },
+            {
+              "day": "Day 3",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Greek Yogurt with Honey and Nuts",
+                "lunch": "Chickpea Salad with Feta",
+                "dinner": "Baked Cod with Green Beans",
+                "snack": "Carrot Sticks with Hummus"
+              }
+            },
+            {
+              "day": "Day 4",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Smoothie with Spinach and Banana",
+                "lunch": "Lentil Soup with Whole Grain Bread",
+                "dinner": "Chicken Stir-Fry with Vegetables",
+                "snack": "Cucumber Slices with Tzatziki"
+              }
+            },
+            {
+              "day": "Day 5",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Chia Pudding with Almond Milk",
+                "lunch": "Quinoa Bowl with Roasted Vegetables",
+                "dinner": "Turkey Meatballs with Zucchini Noodles",
+                "snack": "Apple with Peanut Butter"
+              }
+            },
+            {
+              "day": "Day 6",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Egg White Omelette with Spinach",
+                "lunch": "Tuna Salad with Mixed Greens",
+                "dinner": "Stuffed Bell Peppers with Quinoa",
+                "snack": "Mixed Nuts"
+              }
+            },
+            {
+              "day": "Day 7",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Overnight Oats with Berries",
+                "lunch": "Grilled Vegetable Wrap",
+                "dinner": "Shrimp with Broccoli and Brown Rice",
+                "snack": "Dark Chocolate Square"
+              }
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "days": [
+            {
+              "day": "Day 1",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Scrambled Eggs with Spinach",
+                "lunch": "Quinoa Salad with Chickpeas",
+                "dinner": "Grilled Salmon with Asparagus",
+                "snack": "Greek Yogurt with Honey"
+              }
+            },
+            {
+              "day": "Day 2",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Oatmeal with Almonds",
+                "lunch": "Turkey and Avocado Wrap",
+                "dinner": "Baked Chicken with Brussels Sprouts",
+                "snack": "Carrot Sticks with Hummus"
+              }
+            },
+            {
+              "day": "Day 3",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Greek Yogurt with Granola",
+                "lunch": "Chickpea Salad with Feta",
+                "dinner": "Baked Cod with Spinach",
+                "snack": "Almonds and Apple"
+              }
+            },
+            {
+              "day": "Day 4",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Smoothie with Banana and Spinach",
+                "lunch": "Lentil Soup with Whole Grain Bread",
+                "dinner": "Chicken Stir-Fry with Vegetables",
+                "snack": "Cucumber Slices with Tzatziki"
+              }
+            },
+            {
+              "day": "Day 5",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Chia Pudding with Almond Milk",
+                "lunch": "Quinoa Bowl with Roasted Vegetables",
+                "dinner": "Turkey Meatballs with Zucchini Noodles",
+                "snack": "Apple with Peanut Butter"
+              }
+            },
+            {
+              "day": "Day 6",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Egg White Omelette with Spinach",
+                "lunch": "Tuna Salad with Mixed Greens",
+                "dinner": "Stuffed Bell Peppers with Quinoa",
+                "snack": "Mixed Nuts"
+              }
+            },
+            {
+              "day": "Day 7",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Overnight Oats with Berries",
+                "lunch": "Grilled Vegetable Wrap",
+                "dinner": "Shrimp with Broccoli and Brown Rice",
+                "snack": "Dark Chocolate Square"
+              }
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "days": [
+            {
+              "day": "Day 1",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Scrambled Eggs with Avocado Toast",
+                "lunch": "Quinoa Salad with Veggies",
+                "dinner": "Grilled Chicken with Broccoli",
+                "snack": "Greek Yogurt with Berries"
+              }
+            },
+            {
+              "day": "Day 2",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Oatmeal with Fresh Berries",
+                "lunch": "Turkey Wrap with Spinach",
+                "dinner": "Salmon with Asparagus",
+                "snack": "Almonds and Apple"
+              }
+            },
+            {
+              "day": "Day 3",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Greek Yogurt with Honey and Nuts",
+                "lunch": "Chickpea Salad with Feta",
+                "dinner": "Baked Cod with Green Beans",
+                "snack": "Carrot Sticks with Hummus"
+              }
+            },
+            {
+              "day": "Day 4",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Smoothie with Spinach and Banana",
+                "lunch": "Lentil Soup with Whole Grain Bread",
+                "dinner": "Chicken Stir-Fry with Vegetables",
+                "snack": "Cucumber Slices with Tzatziki"
+              }
+            },
+            {
+              "day": "Day 5",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Chia Pudding with Almond Milk",
+                "lunch": "Quinoa Bowl with Roasted Vegetables",
+                "dinner": "Turkey Meatballs with Zucchini Noodles",
+                "snack": "Apple with Peanut Butter"
+              }
+            },
+            {
+              "day": "Day 6",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Egg White Omelette with Spinach",
+                "lunch": "Tuna Salad with Mixed Greens",
+                "dinner": "Stuffed Bell Peppers with Quinoa",
+                "snack": "Mixed Nuts"
+              }
+            },
+            {
+              "day": "Day 7",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Overnight Oats with Berries",
+                "lunch": "Grilled Vegetable Wrap",
+                "dinner": "Shrimp with Broccoli and Brown Rice",
+                "snack": "Dark Chocolate Square"
+              }
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "days": [
+            {
+              "day": "Day 1",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Scrambled Eggs with Spinach",
+                "lunch": "Quinoa Salad with Chickpeas",
+                "dinner": "Grilled Salmon with Asparagus",
+                "snack": "Greek Yogurt with Honey"
+              }
+            },
+            {
+              "day": "Day 2",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Oatmeal with Almonds",
+                "lunch": "Turkey and Avocado Wrap",
+                "dinner": "Baked Chicken with Brussels Sprouts",
+                "snack": "Carrot Sticks with Hummus"
+              }
+            },
+            {
+              "day": "Day 3",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Greek Yogurt with Granola",
+                "lunch": "Chickpea Salad with Feta",
+                "dinner": "Baked Cod with Spinach",
+                "snack": "Almonds and Apple"
+              }
+            },
+            {
+              "day": "Day 4",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Smoothie with Banana and Spinach",
+                "lunch": "Lentil Soup with Whole Grain Bread",
+                "dinner": "Chicken Stir-Fry with Vegetables",
+                "snack": "Cucumber Slices with Tzatziki"
+              }
+            },
+            {
+              "day": "Day 5",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Chia Pudding with Almond Milk",
+                "lunch": "Quinoa Bowl with Roasted Vegetables",
+                "dinner": "Turkey Meatballs with Zucchini Noodles",
+                "snack": "Apple with Peanut Butter"
+              }
+            },
+            {
+              "day": "Day 6",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Egg White Omelette with Spinach",
+                "lunch": "Tuna Salad with Mixed Greens",
+                "dinner": "Stuffed Bell Peppers with Quinoa",
+                "snack": "Mixed Nuts"
+              }
+            },
+            {
+              "day": "Day 7",
+              "totalCalories": "1800 cal",
+              "macros": {
+                "protein": "25g",
+                "carbs": "200g",
+                "fat": "60g"
+              },
+              "meals": {
+                "breakfast": "Overnight Oats with Berries",
+                "lunch": "Grilled Vegetable Wrap",
+                "dinner": "Shrimp with Broccoli and Brown Rice",
+                "snack": "Dark Chocolate Square"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -13,10 +13,15 @@ def main():
     ap = argparse.ArgumentParser(description="upliftAI: YAML-driven generator")
     ap.add_argument("--profile", required=True, help="Path to a json/jsonc profile (mounted inside container)")
     ap.add_argument("--out-base", default="/app/output", help="Base output directory")
+    ap.add_argument("--weeks", type=int, default=4, help="Number of weeks the program should consist of (mounted inside container)")
     args = ap.parse_args()
 
     # inject the profile text into the task placeholders
     inputs = {"profile_text": _read_text(args.profile)}
+
+    # add weeks if provided
+    if args.weeks:
+        inputs["num_weeks"] = args.weeks
 
     result = UpliftCrew().crew().kickoff(inputs=inputs)
     out_str = str(result).strip()
